@@ -5,7 +5,7 @@
 ### 1.1 Understanding AI, Machine Learning, and Deep Learning
 
 <div style="text-align:center">
-    <img src="..sd/img/ai-ml-dl.png" alt="Overview of Machine Learning" width="450"/>
+    <img src="../img/ai-ml-dl.png" alt="Overview of Machine Learning" width="450"/>
 </div>
 
 a. **Artificial Intelligence (AI)**
