@@ -81,7 +81,7 @@ Remember, the choice between these approaches depends not only on the nature of 
 ### 2.1 What is Supervised Learning?
 **Supervised learning**, also known as `supervised machine learning`, is a subcategory of machine learning and artificial intelligence.
 
-<code style="color:darkorange">It is defined by its use of labeled datasets to train algorithms that to classify data or predict outcomes accurately. </code>
+It is defined by its use of labeled datasets to train algorithms that to classify data or predict outcomes accurately.
 
 As input data is fed into the model, it adjusts its weights until the model has been fitted appropriately, which occurs as part of the cross validation process. 
 
