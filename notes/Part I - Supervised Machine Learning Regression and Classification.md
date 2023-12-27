@@ -120,10 +120,6 @@ Supervised learning can be separated into two types of problems when data mining
 
 2. <u>**Regression**</u>
 
-
-
-
-
 ### 2.3 Key Algorithms in Supervised Learning
 
 - **Neural Networks**: Mimic human brain interconnectivity, adjusting based on loss function and gradient descent.
@@ -170,12 +166,15 @@ Unsupervised learning models are primarily used for clustering, association, and
 - **Exclusive Clustering (Hard Clustering)**:
   
   > Example: K-means clustering groups data into K clusters based on distance from centroids.
+
 - **Overlapping Clustering (Soft Clustering)**:
   
   > Example: Fuzzy k-means clustering allows data points to belong to multiple clusters.
+
 - **Hierarchical Clustering**:
   
   > Agglomerative (bottom-up) or Divisive (top-down) methods are used. Common distance measures include Ward’s linkage, average linkage, complete linkage, and single linkage.
+
 - **Probabilistic Clustering**:
   
   > Gaussian Mixture Models (GMM) cluster data based on distribution probabilities.
