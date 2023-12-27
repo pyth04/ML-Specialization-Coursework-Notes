@@ -116,38 +116,108 @@ Supervised learning can be separated into two types of problems when data mining
    
    It uses an algorithm to accurately assign test data into specific categories. It recognizes specific entities within the dataset and attempts to draw some conclusions on how those entities should be labeled or defined.
    
-   Common classification algorithms are ${\color{orange}linear \space classifiers}$, <p style="color:aqua">support vector machines (SVM)</p>, decision trees, k-nearest neighbor, and random forest, which are described in more detail below.
+   **Common classification algorithms are linear classifiers, support vector machines (SVM), decision trees, k-nearest neighbor, and random forest, which are described in more detail below.**
 
 2. <u>**Regression**</u>
+   
+   Regression is used to understand the relationship between dependent and independent variables. It is commonly used to make projections, such as for sales revenue for a given business.
+   
+   **Linear regression, logistical regression, and polynomial regression are popular regression algorithms**.
 
 ### 2.3 Key Algorithms in Supervised Learning
 
-- **Neural Networks**: Mimic human brain interconnectivity, adjusting based on loss function and gradient descent.
-- **Naive Bayes**: Classification approach using the principle of class conditional independence from Bayes' Theorem.
-- **Linear Regression**: Predicts relationships between dependent and independent variables.
-- **Logistic Regression**: For binary classification problems.
-- **Support Vector Machines (SVM)**: Constructs a hyperplane for classification, maximizing distance between data point classes.
-- **K-nearest Neighbor (KNN)**: Classifies data points based on proximity to others.
-- **Random Forest**: An ensemble of decision trees for improved accuracy and reduced overfitting.
+Various algorithms and computations techniques are used in supervised machine learning processes. Below are brief explanations of some of the most commonly used learning methods, typically calculated through use of programs like R or Python:
+
+#### Neural Networks
+
+Primarily leveraged for deep learning algorithms, neural networks process training data by mimicking the interconnectivity of the human brain through layers of nodes. Each node is made up of inputs, weights, a bias (or threshold), and an output. If that output value exceeds a given threshold, it “fires” or activates the node, passing data to the next layer in the network.
+
+Neural networks learn this mapping function through supervised learning, adjusting based on the loss function through the process of gradient descent. <u>**When the cost function is at or near zero, we can be confident in the model’s accuracy to yield the correct answer**</u>.
+
+#### Naive Bayes
+
+Naive Bayes is classification approach that adopts the principle of class conditional independence from the Bayes Theorem. This means that the presence of one feature does not impact the presence of another in the probability of a given outcome, and each predictor has an equal effect on that result.
+
+There are three types of Naïve Bayes classifiers:
+
+- Multinomial Naïve Bayes
+
+- Bernoulli Naïve Bayes
+
+- Gaussian Naïve Bayes
+
+This technique is primarily used in text classification, spam identification, and recommendation systems.
+
+#### Linear Regression
+
+**Linear regression is used to identify the relationship between a dependent variable and one or more independent variables and is typically leveraged to make predictions about future outcomes**.
+
+When there is only one independent variable and one dependent variable, it is known as *simple linear regression*. As the number of independent variables increases, it is referred to as multiple linear regression.
+
+For each type of linear regression, it seeks to plot a line of best fit, which is calculated through the method of least squares. However, unlike other regression models, this line is straight when plotted on a graph.
+
+#### Logistic Regression
+
+While linear regression is leveraged when dependent variables are continuous, logistic regression is selected when the dependent variable is categorical, meaning they have binary outputs, such as "true" and "false" or "yes" and "no."
+
+While both regression models seek to understand relationships between data inputs, **logistic regression is mainly used to solve binary classification problems, such as spam identification**.
+
+#### Support Vector Machines (SVM)
+
+A support vector machine is a popular supervised learning model developed by Vladimir Vapnik, used for both data classification and regression. That said, it is typically leveraged for classification problems, constructing a hyperplane where the distance between two classes of data points is at its maximum. This hyperplane is known as the decision boundary, separating the classes of data points (e.g., oranges vs. apples) on either side of the plane.
+
+#### K-Nearest Neighbor
+
+K-nearest neighbor, also known as the KNN algorithm, is a non-parametric algorithm that classifies data points based on their proximity and association to other available data.
+
+This algorithm assumes that similar data points can be found near each other. As a result, it seeks to calculate the distance between data points, usually through Euclidean distance, and then it assigns a category based on the most frequent category or average.
+
+Its ease of use and low calculation time make it a preferred algorithm by data scientists, but as the test dataset grows, the processing time lengthens, making it less appealing for classification tasks.
+
+**<u>KNN is typically used for recommendation engines and image recognition.</u>**
+
+Random forest:
 
 ### 2.4 Applications of Supervised Learning
 
-> - **Image and Object Recognition**: For computer vision techniques and imagery analysis.
-> - **Predictive Analytics**: Providing insights for strategic decision-making in businesses.
-> - **Customer Sentiment Analysis**: Analyzing large data volumes for customer interactions and brand engagement.
-> - **Spam Detection**: Training models to filter out spam effectively.
+Supervised learning models can be used to build and advance a number of business applications, including the following:
+
+**Image and Object Recognition**
+
+> Supervised learning algorithms can be used to locate, isolate, and categorize objects out of videos or images, making them useful when applied to various computer vision techniques and imagery analysis.
+
+**Predictive Analytics**
+
+> A widespread use case for supervised learning models is in creating predictive analytics systems to provide deep insights into various business data points. 
+> 
+> This allows enterprises to anticipate certain results based on a given output variable, helping business leaders justify decisions or pivot for the benefit of the organization.
+
+**Customer Sentiment Analysis**
+
+> Using supervised machine learning algorithms, organizations can extract and classify important pieces of information from large volumes of data—including context, emotion, and intent—with very little human intervention.
+> 
+> This can be incredibly useful when gaining a better understanding of customer interactions and can be used to improve brand engagement efforts.
+
+**Spam Detection**
+
+> Spam detection is another example of a supervised learning model. Using supervised classification algorithms, organizations can train databases to recognize patterns or anomalies in new data to organize spam and non-spam-related correspondences effectively.
 
 ### 2.5 Challenges in Supervised Learning
 
-> - **Expertise Requirement**: Building models requires specialized knowledge.
-> - **Time-Consuming Training**: Prolonged training periods for model accuracy.
-> - **Data Quality Dependence**: The effectiveness of models relies on high-quality input data.
-> - **Limited to Labeled Data**: Inefficiency in handling unlabeled data autonomously.
+Although supervised learning can offer businesses advantages, such as deep data insights and improved automation, there are some challenges when building sustainable supervised learning models.
+
+The following are some of these challenges:
+
+- Supervised learning models can require certain levels of expertise to structure accurately.
+- Training supervised learning models can be very time intensive.
+- Datasets can have a higher likelihood of human error, resulting in algorithms learning incorrectly.
+- Unlike unsupervised learning models, supervised learning cannot cluster or classify data on its own.
 
 ### 2.6 Comparing Learning Types
 
-> - **Unsupervised Learning**: Focuses on unlabeled data to discover patterns.
-> - **Semi-Supervised Learning**: Involves partially labeled input data.
+**Unsupervised machine learning** and **supervised machine learning** are frequently discussed together. Unlike supervised learning, unsupervised learning uses unlabeled data. From that data, it discovers patterns that help solve for clustering or association problems. This is particularly useful when subject matter experts are unsure of common properties within a data set. Common clustering algorithms are hierarchical, k-means, and Gaussian mixture models.
+
+**Semi-supervised learning** occurs when only part of the given input data has been labeled. Unsupervised and semi-supervised learning can be more appealing alternatives as it can be time-consuming and costly to rely on domain expertise to label data appropriately for supervised learning.
 
 ---
 
