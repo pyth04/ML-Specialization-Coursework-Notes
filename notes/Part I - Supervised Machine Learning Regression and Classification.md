@@ -112,11 +112,11 @@ The algorithm measures its accuracy through the `loss function`, adjusting until
 
 Supervised learning can be separated into two types of problems when data mining:
 
-1. <u style="color : aqua">**Classification**</u>
+1. <u>**Classification**</u>
    
    It uses an algorithm to accurately assign test data into specific categories. It recognizes specific entities within the dataset and attempts to draw some conclusions on how those entities should be labeled or defined.
    
-   Common classification algorithms are ${\color{orange}linear \space classifiers}$, support vector machines (SVM), decision trees, k-nearest neighbor, and random forest, which are described in more detail below.
+   Common classification algorithms are ${\color{orange}linear \space classifiers}$, <p style="color:aqua">support vector machines (SVM)</p>, decision trees, k-nearest neighbor, and random forest, which are described in more detail below.
 
 2. <u>**Regression**</u>
 
