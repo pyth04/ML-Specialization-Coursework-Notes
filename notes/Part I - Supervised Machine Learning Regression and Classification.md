@@ -5,26 +5,26 @@
 ### 1.1 Understanding AI, Machine Learning, and Deep Learning
 
 <div style="text-align:center">
-    <img src="../img/ai-ml-dl.png" alt="Overview of Machine Learning" width="450"/>
+    <img src="../img/ai-ml-dl.png" alt="Overview of Machine Learning" width="300"/>
 </div>
 
-a. **Artificial Intelligence (AI)**
+**a. Artificial Intelligence (AI)**
 
-> AI is the overarching discipline that encompasses the creation of intelligent machines capable of performing tasks that typically require human intellect.
-> 
-> > Example: An intelligent home automation system that adapts the home environment to the preferences of its residents without manual programming.
+AI is the overarching discipline that encompasses the creation of intelligent machines capable of performing tasks that typically require human intellect.
 
-b. **Machine Learning (ML)**
+> Example: An intelligent home automation system that adapts the home environment to the preferences of its residents without manual programming.
 
-> ML is a branch of AI focused on algorithms that enable machines to improve at tasks with experience.
-> 
-> > Example: A fraud detection system that learns to identify fraudulent transactions by analyzing patterns in transaction data.
+**b. Machine Learning (ML)**
 
-c. **Deep Learning (DL)**
+ML is a branch of AI focused on algorithms that enable machines to improve at tasks with experience.
 
-> DL, a subset of ML, leverages multi-layered neural networks to analyze data, allowing for the modeling of complex patterns.
-> 
-> > Example: Facial recognition technology used in security systems that can accurately identify individuals even in varying lighting conditions.
+> Example: A fraud detection system that learns to identify fraudulent transactions by analyzing patterns in transaction data.
+
+**c. Deep Learning (DL)**
+
+DL, a subset of ML, leverages multi-layered neural networks to analyze data, allowing for the modeling of complex patterns.
+
+> Example: Facial recognition technology used in security systems that can accurately identify individuals even in varying lighting conditions.
 
 ---
 
@@ -88,7 +88,7 @@ While traditional programming is effective for problems with clear rules and log
   > - You have the computational resources to train large neural networks.
   > - You can leverage large labeled datasets for supervised training, or significant amounts of data for unsupervised learning.
 
-Remember, the choice between these approaches depends not only on the nature of the problem and data but also on the available computational resources and the required transparency of the model's decisions.
+The choice between these approaches depends not only on the nature of the problem and data but also on the available computational resources and the required transparency of the model's decisions.
 
 ---
 
@@ -225,11 +225,15 @@ The following are some of these challenges:
 
 ### 3.1 What is Unsupervised Learning?
 
-> Unsupervised learning, a branch of machine learning, uses algorithms to analyze and cluster unlabeled datasets. These algorithms uncover hidden patterns or data groupings without human intervention. Unsupervised learning is crucial for tasks like exploratory data analysis, cross-selling strategies, customer segmentation, and image recognition.
+Unsupervised learning, also known as unsupervised machine learning, uses machine learning algorithms to analyze and cluster unlabeled datasets. These algorithms discover `hidden patterns` or `data groupings` without the need for human intervention.
+
+Its ability to discover similarities and differences in information make it the ideal solution for exploratory data analysis, cross-selling strategies, customer segmentation, and image recognition.
 
 ### 3.2 Common Unsupervised Learning Approaches
 
-Unsupervised learning models are primarily used for clustering, association, and dimensionality reduction. Each approach involves different methodologies and algorithms:
+Unsupervised learning models are primarily used for clustering, association, and dimensionality reduction.
+
+Each approach involves different methodologies and algorithms:
 
 #### 3.2.1 Clustering
 
@@ -243,7 +247,9 @@ Unsupervised learning models are primarily used for clustering, association, and
 
 - **Hierarchical Clustering**:
   
-  > Agglomerative (bottom-up) or Divisive (top-down) methods are used. Common distance measures include Ward’s linkage, average linkage, complete linkage, and single linkage.
+  > Agglomerative (bottom-up) or Divisive (top-down) methods are used. 
+  > 
+  > Common distance measures include Ward’s linkage, average linkage, complete linkage, and single linkage.
 
 - **Probabilistic Clustering**:
   
