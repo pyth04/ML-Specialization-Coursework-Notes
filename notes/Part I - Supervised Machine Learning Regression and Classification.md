@@ -112,7 +112,7 @@ The algorithm measures its accuracy through the `loss function`, adjusting until
 
 Supervised learning can be separated into two types of problems when data mining:
 
-1. <u>**Classification**</u>
+1. <u style="color : aqua">**Classification**</u>
    
    It uses an algorithm to accurately assign test data into specific categories. It recognizes specific entities within the dataset and attempts to draw some conclusions on how those entities should be labeled or defined.
    
