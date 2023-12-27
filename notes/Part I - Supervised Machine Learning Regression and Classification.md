@@ -116,7 +116,7 @@ Supervised learning can be separated into two types of problems when data mining
    
    It uses an algorithm to accurately assign test data into specific categories. It recognizes specific entities within the dataset and attempts to draw some conclusions on how those entities should be labeled or defined.
    
-   Common classification algorithms are <code style="color:aqua"> linear classifiers </code>, support vector machines (SVM), decision trees, k-nearest neighbor, and random forest, which are described in more detail below.
+   Common classification algorithms are <span style="color:darkorange"> linear classifiers </span>, support vector machines (SVM), decision trees, k-nearest neighbor, and random forest, which are described in more detail below.
 
 2. <u>**Regression**</u>
 
