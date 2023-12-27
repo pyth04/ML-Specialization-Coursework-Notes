@@ -128,13 +128,13 @@ Supervised learning can be separated into two types of problems when data mining
 
 Various algorithms and computations techniques are used in supervised machine learning processes. Below are brief explanations of some of the most commonly used learning methods, typically calculated through use of programs like R or Python:
 
-#### Neural Networks
+#### `Neural Networks`
 
 Primarily leveraged for deep learning algorithms, neural networks process training data by mimicking the interconnectivity of the human brain through layers of nodes. Each node is made up of inputs, weights, a bias (or threshold), and an output. If that output value exceeds a given threshold, it “fires” or activates the node, passing data to the next layer in the network.
 
 Neural networks learn this mapping function through supervised learning, adjusting based on the loss function through the process of gradient descent. <u>**When the cost function is at or near zero, we can be confident in the model’s accuracy to yield the correct answer**</u>.
 
-#### Naive Bayes
+#### `Naive Bayes`
 
 Naive Bayes is classification approach that adopts the principle of class conditional independence from the Bayes Theorem. This means that the presence of one feature does not impact the presence of another in the probability of a given outcome, and each predictor has an equal effect on that result.
 
@@ -148,7 +148,7 @@ There are three types of Naïve Bayes classifiers:
 
 This technique is primarily used in text classification, spam identification, and recommendation systems.
 
-#### Linear Regression
+#### `Linear Regression`
 
 **Linear regression is used to identify the relationship between a dependent variable and one or more independent variables and is typically leveraged to make predictions about future outcomes**.
 
@@ -156,17 +156,17 @@ When there is only one independent variable and one dependent variable, it is kn
 
 For each type of linear regression, it seeks to plot a line of best fit, which is calculated through the method of least squares. However, unlike other regression models, this line is straight when plotted on a graph.
 
-#### Logistic Regression
+#### `Logistic Regression`
 
 While linear regression is leveraged when dependent variables are continuous, logistic regression is selected when the dependent variable is categorical, meaning they have binary outputs, such as "true" and "false" or "yes" and "no."
 
 While both regression models seek to understand relationships between data inputs, **logistic regression is mainly used to solve binary classification problems, such as spam identification**.
 
-#### Support Vector Machines (SVM)
+#### `Support Vector Machines (SVM)`
 
 A support vector machine is a popular supervised learning model developed by Vladimir Vapnik, used for both data classification and regression. That said, it is typically leveraged for classification problems, constructing a hyperplane where the distance between two classes of data points is at its maximum. This hyperplane is known as the decision boundary, separating the classes of data points (e.g., oranges vs. apples) on either side of the plane.
 
-#### K-Nearest Neighbor
+#### `K-Nearest Neighbor`
 
 K-nearest neighbor, also known as the KNN algorithm, is a non-parametric algorithm that classifies data points based on their proximity and association to other available data.
 
