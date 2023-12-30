@@ -14,19 +14,19 @@ Think of it like determining how the temperature changes with the time of the da
 ## 1.2. Varieties of Regression Models
 Each type of regression model has its unique characteristics and use cases:
 
-### i) Linear Regression:
+### Linear Regression:
 This is the starting point for many. It predicts a linear relationship between the dependent and independent variables.
     
-### ii) Multiple Linear Regression:
+### Multiple Linear Regression:
 An extension of linear regression where multiple independent variables are used to predict the dependent variable.
 
-### iii) Polynomial Regression:
+### Polynomial Regression:
 Useful for modeling non-linear relationships. It fits a polynomial line to the data points.
 
-### iv) Logistic Regression:
+### Logistic Regression:
 Despite the name, it’s used for `classification problems`. It predicts the probability of an outcome that can be either 0 or 1.
 
-### v) Ridge and Lasso Regression:
+### Ridge and Lasso Regression:
 These are variations of linear regression that include regularization to avoid overfitting.
 
 ## 1.3 - Why Regression Models are Crucial
