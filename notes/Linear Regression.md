@@ -24,8 +24,6 @@ In this equation:
 
 `Example 1`
 
-Example 1
-
 To demonstrate regression analysis for predicting the price of a house based on its size, let's start by creating a simple dataset with 10 entries. We'll use house size (in square feet) as the independent variable `X` and house price (in thousands of dollars) as the dependent variable `Y`. 
 
 Here's a hypothetical dataset:
@@ -68,6 +66,17 @@ $$
 This means for each additional square foot, the house price increases by $180 (since the price is in thousands of dollars).
 
 ![Example Regression Plot](../img/example1.png)
+
+The plot above illustrates the linear regression model for our house price prediction based on size. The blue dots represent the actual data points from our dataset, showing the known house sizes and their corresponding prices. The red line is the regression line given by the equation `Y = 30 + 0.18X`, which represents our predictive model.
+
+The regression line is the result of finding the best fit through the data points that minimizes the overall distance between the line and each of the points. Here's what each part of the line represents:
+
+- The y-intercept (`β_0 = 30`) is where the line crosses the Y-axis. This represents the starting price value when the size of the house is zero. It's a theoretical construct since there's no house with zero size, but it helps anchor our line within the context of the data.
+- The slope of the line (`β_1 = 0.18`) indicates the rate of increase in the house price for each additional square foot. The slope shows a fairly steady increase in price with size, which is typical for property values.
+
+This linear model provides a simple yet powerful tool for predicting house prices. By inputting the size of a house into our equation, we can quickly estimate its price. For instance, if we wanted to predict the price of a house that is 2000 square feet, we would calculate it as `Y = 30 + 0.18 * 2000`, giving us a predicted price of $390K.
+
+Understanding this plot and the regression equation can help potential buyers or real estate analysts make informed decisions based on the size of a property.
 
 Note: In real-world scenarios, deriving these coefficients (`β_0` and `β_1`) involves more complex statistical analysis and the consideration of more variables for accuracy.
 
